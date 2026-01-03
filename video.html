@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>Video Sayfası</title>
+ <style>
+  *{
+    margin: 0;
+    padding: 0;
+}
+ .container .navbar{
+    width: 100%;
+    height: 80px;
+    background:rgb(115, 226, 103);
+    display: flex;               
+    align-items: center;         
+    justify-content: space-between;
+    padding: 0 10px;
+}
+
+.navbar .logo{
+    display: flex;
+    align-items: center;  
+    padding-left: 20px; 
+}
+
+.navbar .banner{
+   width: 90px;
+    height: auto;
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 8px;
+    line-height: 80px;
+
+}
+.navbar ul li a{
+    color:rgb(71, 3, 3);
+    text-decoration: none;
+    font-size: 20px;
+    padding: 6px 13px;
+    font-family: Roboto;
+    transition: .5s;
+}
+
+.navbar ul li a.active,
+.navbar ul li a:hover{
+    background: rgb(39, 205, 18);
+    border-radius: 2px;
+}
+
+.container .center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-family: sans-serif;
+    user-select: none;
+    width:80%;
+    max-width: 1000px;
+}
+h2{
+    margin-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(30, 105, 18);
+}
+video{
+    margin-top: 15px;
+}
+</style>
+</head>
+<body style="background:#e1f8d9; text-align:center;">
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <img src="RESİMLER/logo.png" alt="" class="banner">
+            </div>
+            <ul>
+                <li> <a href="index.html" class="active">Ana Sayfa</a></li>
+                <li> <a href="hakkında.html">Nedir</a></li>
+                <li> <a href="tema.html">Tema</a></li>
+                <li> <a href="cozum.html">Çözüm</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <h2>Çevre Video Sunumu</h2>
+
+    <video controls width="700">
+        <source src="RESİMLER/iklim.mp4" type="video/mp4">
+    </video>
+
+</body>
+</html>

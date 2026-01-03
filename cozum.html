@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <style>
+      *{
+    margin: 0;
+    padding: 0;
+}
+body{
+  background-color: rgb(184, 226, 164);
+}
+    
+ .container .navbar{
+    width: 100%;
+    height: 80px;
+    background:rgb(115, 226, 103);
+    display: flex;               
+    align-items: center;         
+    justify-content: space-between;
+    padding: 0 10px;
+}
+
+.navbar .logo{
+    display: flex;
+    align-items: center;  
+    padding-left: 20px; 
+}
+
+.navbar .banner{
+   width: 90px;
+    height: auto;
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 8px;
+    line-height: 80px;
+
+}
+.navbar ul li a{
+    color:rgb(71, 3, 3);
+    text-decoration: none;
+    font-size: 20px;
+    padding: 6px 13px;
+    font-family: Roboto;
+    transition: .5s;
+}
+
+.navbar ul li a.active,
+.navbar ul li a:hover{
+    background: rgb(39, 205, 18);
+    border-radius: 2px;
+}
+
+.container .center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-family: sans-serif;
+    user-select: none;
+    width:80%;
+    max-width: 1000px;
+}
+.cozum-yazi h1{
+  margin-top: 20px;
+  
+  color: rgb(22, 91, 42);
+}
+.cozum-yazi h4{
+  margin-top: 20px;
+  margin-left: 170px;
+  color: rgb(22, 133, 54);
+  font-size: 30px;
+}
+.cozum-yazi h2{
+  margin-top: 30px;
+  color: rgb(66, 3, 3);
+  font-family: "Roboto", sans-serif;
+}
+.cozum-yazi h3{
+  font-family:'Times New Roman', Times, serif;
+  font-size: 25px;
+  margin-top: 15px;
+}
+.cozum-yazi p{
+  font-size: 15px;
+}
+#cozumler{
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  padding: 40px;
+  align-items: flex-start;
+}
+
+
+.icerik{
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.icerik img{
+  width: 300px;
+  height: auto;
+  border-radius: 8px;
+  
+}
+.icerik li img {
+  margin-top: 200px;
+  
+}
+
+.cozum-yazi{
+  width: 100%;
+  font-size: 25px;
+}
+
+
+</style>
+    
+</head>
+
+<body>
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <img src="RESİMLER/logo.png" alt="" class="banner">
+            </div>
+            <ul>
+                <li> <a href="index.html" class="active">Ana Sayfa</a></li>
+                <li> <a href="hakkında.html">Nedir</a></li>
+                <li> <a href="tema.html">Tema</a></li>
+                <li> <a href="cozum.html">Çözüm</a></li>
+            </ul>
+        </div>
+     </div>
+    <section id="cozumler">
+      
+      <div class="icerik">
+  <li style="color:  rgb(184, 226, 164);"> <img src="RESİMLER/agaclandirma.png" alt=""></li>
+  <img src="RESİMLER/yenilenebilir.png" alt="">
+  <img src="RESİMLER/enerji.png" alt="">
+  <img src="RESİMLER/su.png" alt="">
+  <img src="RESİMLER/eldunya.png" alt="">
+  <img src="RESİMLER/teknoloji.png" alt="">
+</div>
+<div class="cozum-yazi">
+      <h1>Gezegenimizi Koru, Geleceğini Koru</h1>
+      <h4><b>Doğayı korumak geleceği korumaktır.</b></h4>
+  <h2>Çözümler ve Önlemler</h2>
+
+  <h3>1. Yenilenebilir Enerji Kullanımı</h3>
+  <ul>
+    <li>Güneş, rüzgar, hidroelektrik ve jeotermal enerji kaynaklarının yaygınlaştırılması</li>
+    <li>Fosil yakıtlara bağımlılığı azaltarak karbon emisyonlarını düşürmek</li>
+  </ul>
+    
+  <h3>2. Enerji Tasarrufu</h3>
+  <ul>
+    <li>Evlerde LED ampuller, enerji verimli cihazlar kullanmak</li>
+    <li>Gereksiz elektrik kullanımını azaltmak</li>
+    <li>İş yerlerinde ve okullarda enerji verimliliğini artıracak sistemler kurmak</li>
+  </ul>
+
+  <h3>3. Atık Yönetimi ve Geri Dönüşüm</h3>
+  <ul>
+    <li>Plastik, cam, kağıt ve metal atıkları ayrıştırmak</li>
+    <li>Organik atıkları kompost yapmak</li>
+    <li>Tek kullanımlık ürünleri azaltmak</li>
+  </ul>
+
+  <h3>4. Ağaçlandırma ve Yeşil Alanlar</h3>
+  <ul>
+    <li>Şehirlerde ve köylerde ağaç dikme projeleri</li>
+    <li>Ormanları koruma ve yeni orman alanları oluşturma</li>
+    <li>Park ve bahçelerin çoğaltılması</li>
+  </ul>
+
+  <h3>5. Tarımda Sürdürülebilir Uygulamalar</h3>
+  <ul>
+    <li>Organik tarım ve doğal gübre kullanımı</li>
+    <li>Su tasarrufu sağlayan sulama sistemleri (damla sulama gibi)</li>
+    <li>Yerel ve mevsimlik ürünlerin tercih edilmesi</li>
+  </ul>
+
+  <h3>6. Ulaşımda Çevre Dostu Yaklaşımlar</h3>
+  <ul>
+    <li>Toplu taşıma araçlarının kullanılması</li>
+    <li>Bisiklet ve yürüyüşün teşvik edilmesi</li>
+    <li>Elektrikli araçların kullanımının artırılması</li>
+  </ul>
+
+  <h3>7. Su Kaynaklarının Korunması</h3>
+  <ul>
+    <li>Su tasarrufu: muslukları açık bırakmamak, yağmur suyunu biriktirmek</li>
+    <li>Kirli suyun doğaya karışmasını önlemek</li>
+    <li>Nehir ve göl temizliği çalışmaları</li>
+  </ul>
+
+  <h3>8. Farkındalık ve Eğitim</h3>
+  <ul>
+    <li>Okullarda ve topluluklarda çevre eğitimleri düzenlemek</li>
+    <li>İklim değişikliği ile ilgili kampanyalara katılmak</li>
+    <li>Sosyal medyada çevre dostu davranışları yaymak</li>
+  </ul>
+
+  <h3>9. Küresel İş Birliği</h3>
+  <ul>
+    <li>Ülkeler arası iklim anlaşmalarına destek olmak</li>
+    <li>Sera gazı azaltım hedeflerini uygulamak</li>
+    <li>Uluslararası fon ve projelerle sürdürülebilir kalkınmayı desteklemek</li>
+  </ul>
+
+  <h3>10. Teknoloji ve İnovasyon</h3>
+  <ul>
+    <li>Karbon yakalama ve depolama teknolojilerini geliştirmek</li>
+    <li>Enerji verimliliğini artıracak yenilikçi çözümler üretmek</li>
+    <li>Çevre dostu malzemeler ve ürünler geliştirmek</li>
+  </ul>
+</div>
+</section>
+
+   
+</body>
+</html>
